@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 0; 
+}
+.header-main {
+    background-color: lightgreen;
+    padding: 10px 20px; 
+    position: relative;
+    overflow: hidden; 
+    margin: -20px -20px 20px -20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+.h1-wrap {
+    display:inline;
+     
+}
+
+h1 {
+    display: inline; 
+    color: black;
+    margin: 0;
+    font-weight: bold;
+    padding: 5px 8px; 
+    font-size: 1.5em; 
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+.abc{
+    display: inline-block;
+    position: relative;
+}
+.num {
+    position: absolute; 
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 50%; 
+    line-height: 1; 
+    z-index: 10; 
+}
+.chat {
+    position: fixed; 
+    right: 20px; 
+    bottom: 20px; 
+    cursor: pointer;
+    z-index: 1000; 
+}
